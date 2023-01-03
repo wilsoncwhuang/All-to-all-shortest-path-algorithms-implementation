@@ -1,0 +1,1296 @@
+./bin/sprand 100 400 1  -ll1000 -lm1 > ./inputs/sprand_100_400_1_1000_1.sp
+./bin/dikh_run ./inputs/sprand_100_400_1_1000_1.sp 1 1 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_100_400_1_1000_1.sp 1 1 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_100_400_1_1000_1.sp 1 1 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_100_400_1_1000_1.sp 1 1 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_100_400_1_1000_1.sp 1 1 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_100_400_1_1000_1.sp 1 1 1 >> ./results/myfwg.txt
+
+./bin/sprand 100 400 1  -ll10000 -lm1000 > ./inputs/sprand_100_400_1_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_100_400_1_10000_1000.sp 1 1 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_100_400_1_10000_1000.sp 1 1 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_100_400_1_10000_1000.sp 1 1 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_100_400_1_10000_1000.sp 1 1 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_100_400_1_10000_1000.sp 1 1 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_100_400_1_10000_1000.sp 1 1 2 >> ./results/myfwg.txt
+
+./bin/sprand 100 400 1  -ll1000000 -lm1 > ./inputs/sprand_100_400_1_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_100_400_1_1000000_1.sp 1 1 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_100_400_1_1000000_1.sp 1 1 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_100_400_1_1000000_1.sp 1 1 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_100_400_1_1000000_1.sp 1 1 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_100_400_1_1000000_1.sp 1 1 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_100_400_1_1000000_1.sp 1 1 3 >> ./results/myfwg.txt
+
+./bin/sprand 100 400 10  -ll1000 -lm1 > ./inputs/sprand_100_400_10_1000_1.sp
+./bin/dikh_run ./inputs/sprand_100_400_10_1000_1.sp 1 10 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_100_400_10_1000_1.sp 1 10 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_100_400_10_1000_1.sp 1 10 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_100_400_10_1000_1.sp 1 10 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_100_400_10_1000_1.sp 1 10 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_100_400_10_1000_1.sp 1 10 1 >> ./results/myfwg.txt
+
+./bin/sprand 100 400 10  -ll10000 -lm1000 > ./inputs/sprand_100_400_10_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_100_400_10_10000_1000.sp 1 10 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_100_400_10_10000_1000.sp 1 10 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_100_400_10_10000_1000.sp 1 10 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_100_400_10_10000_1000.sp 1 10 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_100_400_10_10000_1000.sp 1 10 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_100_400_10_10000_1000.sp 1 10 2 >> ./results/myfwg.txt
+
+./bin/sprand 100 400 10  -ll1000000 -lm1 > ./inputs/sprand_100_400_10_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_100_400_10_1000000_1.sp 1 10 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_100_400_10_1000000_1.sp 1 10 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_100_400_10_1000000_1.sp 1 10 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_100_400_10_1000000_1.sp 1 10 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_100_400_10_1000000_1.sp 1 10 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_100_400_10_1000000_1.sp 1 10 3 >> ./results/myfwg.txt
+
+./bin/sprand 100 400 100  -ll1000 -lm1 > ./inputs/sprand_100_400_100_1000_1.sp
+./bin/dikh_run ./inputs/sprand_100_400_100_1000_1.sp 1 100 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_100_400_100_1000_1.sp 1 100 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_100_400_100_1000_1.sp 1 100 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_100_400_100_1000_1.sp 1 100 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_100_400_100_1000_1.sp 1 100 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_100_400_100_1000_1.sp 1 100 1 >> ./results/myfwg.txt
+
+./bin/sprand 100 400 100  -ll10000 -lm1000 > ./inputs/sprand_100_400_100_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_100_400_100_10000_1000.sp 1 100 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_100_400_100_10000_1000.sp 1 100 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_100_400_100_10000_1000.sp 1 100 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_100_400_100_10000_1000.sp 1 100 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_100_400_100_10000_1000.sp 1 100 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_100_400_100_10000_1000.sp 1 100 2 >> ./results/myfwg.txt
+
+./bin/sprand 100 400 100  -ll1000000 -lm1 > ./inputs/sprand_100_400_100_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_100_400_100_1000000_1.sp 1 100 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_100_400_100_1000000_1.sp 1 100 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_100_400_100_1000000_1.sp 1 100 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_100_400_100_1000000_1.sp 1 100 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_100_400_100_1000000_1.sp 1 100 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_100_400_100_1000000_1.sp 1 100 3 >> ./results/myfwg.txt
+
+./bin/sprand 100 1600 1  -ll1000 -lm1 > ./inputs/sprand_100_1600_1_1000_1.sp
+./bin/dikh_run ./inputs/sprand_100_1600_1_1000_1.sp 1 1 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_100_1600_1_1000_1.sp 1 1 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_100_1600_1_1000_1.sp 1 1 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_100_1600_1_1000_1.sp 1 1 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_100_1600_1_1000_1.sp 1 1 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_100_1600_1_1000_1.sp 1 1 1 >> ./results/myfwg.txt
+
+./bin/sprand 100 1600 1  -ll10000 -lm1000 > ./inputs/sprand_100_1600_1_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_100_1600_1_10000_1000.sp 1 1 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_100_1600_1_10000_1000.sp 1 1 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_100_1600_1_10000_1000.sp 1 1 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_100_1600_1_10000_1000.sp 1 1 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_100_1600_1_10000_1000.sp 1 1 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_100_1600_1_10000_1000.sp 1 1 2 >> ./results/myfwg.txt
+
+./bin/sprand 100 1600 1  -ll1000000 -lm1 > ./inputs/sprand_100_1600_1_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_100_1600_1_1000000_1.sp 1 1 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_100_1600_1_1000000_1.sp 1 1 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_100_1600_1_1000000_1.sp 1 1 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_100_1600_1_1000000_1.sp 1 1 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_100_1600_1_1000000_1.sp 1 1 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_100_1600_1_1000000_1.sp 1 1 3 >> ./results/myfwg.txt
+
+./bin/sprand 100 1600 10  -ll1000 -lm1 > ./inputs/sprand_100_1600_10_1000_1.sp
+./bin/dikh_run ./inputs/sprand_100_1600_10_1000_1.sp 1 10 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_100_1600_10_1000_1.sp 1 10 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_100_1600_10_1000_1.sp 1 10 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_100_1600_10_1000_1.sp 1 10 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_100_1600_10_1000_1.sp 1 10 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_100_1600_10_1000_1.sp 1 10 1 >> ./results/myfwg.txt
+
+./bin/sprand 100 1600 10  -ll10000 -lm1000 > ./inputs/sprand_100_1600_10_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_100_1600_10_10000_1000.sp 1 10 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_100_1600_10_10000_1000.sp 1 10 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_100_1600_10_10000_1000.sp 1 10 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_100_1600_10_10000_1000.sp 1 10 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_100_1600_10_10000_1000.sp 1 10 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_100_1600_10_10000_1000.sp 1 10 2 >> ./results/myfwg.txt
+
+./bin/sprand 100 1600 10  -ll1000000 -lm1 > ./inputs/sprand_100_1600_10_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_100_1600_10_1000000_1.sp 1 10 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_100_1600_10_1000000_1.sp 1 10 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_100_1600_10_1000000_1.sp 1 10 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_100_1600_10_1000000_1.sp 1 10 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_100_1600_10_1000000_1.sp 1 10 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_100_1600_10_1000000_1.sp 1 10 3 >> ./results/myfwg.txt
+
+./bin/sprand 100 1600 100  -ll1000 -lm1 > ./inputs/sprand_100_1600_100_1000_1.sp
+./bin/dikh_run ./inputs/sprand_100_1600_100_1000_1.sp 1 100 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_100_1600_100_1000_1.sp 1 100 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_100_1600_100_1000_1.sp 1 100 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_100_1600_100_1000_1.sp 1 100 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_100_1600_100_1000_1.sp 1 100 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_100_1600_100_1000_1.sp 1 100 1 >> ./results/myfwg.txt
+
+./bin/sprand 100 1600 100  -ll10000 -lm1000 > ./inputs/sprand_100_1600_100_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_100_1600_100_10000_1000.sp 1 100 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_100_1600_100_10000_1000.sp 1 100 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_100_1600_100_10000_1000.sp 1 100 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_100_1600_100_10000_1000.sp 1 100 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_100_1600_100_10000_1000.sp 1 100 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_100_1600_100_10000_1000.sp 1 100 2 >> ./results/myfwg.txt
+
+./bin/sprand 100 1600 100  -ll1000000 -lm1 > ./inputs/sprand_100_1600_100_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_100_1600_100_1000000_1.sp 1 100 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_100_1600_100_1000000_1.sp 1 100 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_100_1600_100_1000000_1.sp 1 100 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_100_1600_100_1000000_1.sp 1 100 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_100_1600_100_1000000_1.sp 1 100 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_100_1600_100_1000000_1.sp 1 100 3 >> ./results/myfwg.txt
+
+./bin/sprand 100 2475 1  -ll1000 -lm1 > ./inputs/sprand_100_2475_1_1000_1.sp
+./bin/dikh_run ./inputs/sprand_100_2475_1_1000_1.sp 1 1 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_100_2475_1_1000_1.sp 1 1 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_100_2475_1_1000_1.sp 1 1 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_100_2475_1_1000_1.sp 1 1 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_100_2475_1_1000_1.sp 1 1 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_100_2475_1_1000_1.sp 1 1 1 >> ./results/myfwg.txt
+
+./bin/sprand 100 2475 1  -ll10000 -lm1000 > ./inputs/sprand_100_2475_1_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_100_2475_1_10000_1000.sp 1 1 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_100_2475_1_10000_1000.sp 1 1 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_100_2475_1_10000_1000.sp 1 1 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_100_2475_1_10000_1000.sp 1 1 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_100_2475_1_10000_1000.sp 1 1 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_100_2475_1_10000_1000.sp 1 1 2 >> ./results/myfwg.txt
+
+./bin/sprand 100 2475 1  -ll1000000 -lm1 > ./inputs/sprand_100_2475_1_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_100_2475_1_1000000_1.sp 1 1 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_100_2475_1_1000000_1.sp 1 1 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_100_2475_1_1000000_1.sp 1 1 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_100_2475_1_1000000_1.sp 1 1 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_100_2475_1_1000000_1.sp 1 1 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_100_2475_1_1000000_1.sp 1 1 3 >> ./results/myfwg.txt
+
+./bin/sprand 100 2475 10  -ll1000 -lm1 > ./inputs/sprand_100_2475_10_1000_1.sp
+./bin/dikh_run ./inputs/sprand_100_2475_10_1000_1.sp 1 10 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_100_2475_10_1000_1.sp 1 10 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_100_2475_10_1000_1.sp 1 10 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_100_2475_10_1000_1.sp 1 10 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_100_2475_10_1000_1.sp 1 10 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_100_2475_10_1000_1.sp 1 10 1 >> ./results/myfwg.txt
+
+./bin/sprand 100 2475 10  -ll10000 -lm1000 > ./inputs/sprand_100_2475_10_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_100_2475_10_10000_1000.sp 1 10 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_100_2475_10_10000_1000.sp 1 10 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_100_2475_10_10000_1000.sp 1 10 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_100_2475_10_10000_1000.sp 1 10 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_100_2475_10_10000_1000.sp 1 10 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_100_2475_10_10000_1000.sp 1 10 2 >> ./results/myfwg.txt
+
+./bin/sprand 100 2475 10  -ll1000000 -lm1 > ./inputs/sprand_100_2475_10_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_100_2475_10_1000000_1.sp 1 10 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_100_2475_10_1000000_1.sp 1 10 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_100_2475_10_1000000_1.sp 1 10 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_100_2475_10_1000000_1.sp 1 10 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_100_2475_10_1000000_1.sp 1 10 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_100_2475_10_1000000_1.sp 1 10 3 >> ./results/myfwg.txt
+
+./bin/sprand 100 2475 100  -ll1000 -lm1 > ./inputs/sprand_100_2475_100_1000_1.sp
+./bin/dikh_run ./inputs/sprand_100_2475_100_1000_1.sp 1 100 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_100_2475_100_1000_1.sp 1 100 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_100_2475_100_1000_1.sp 1 100 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_100_2475_100_1000_1.sp 1 100 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_100_2475_100_1000_1.sp 1 100 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_100_2475_100_1000_1.sp 1 100 1 >> ./results/myfwg.txt
+
+./bin/sprand 100 2475 100  -ll10000 -lm1000 > ./inputs/sprand_100_2475_100_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_100_2475_100_10000_1000.sp 1 100 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_100_2475_100_10000_1000.sp 1 100 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_100_2475_100_10000_1000.sp 1 100 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_100_2475_100_10000_1000.sp 1 100 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_100_2475_100_10000_1000.sp 1 100 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_100_2475_100_10000_1000.sp 1 100 2 >> ./results/myfwg.txt
+
+./bin/sprand 100 2475 100  -ll1000000 -lm1 > ./inputs/sprand_100_2475_100_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_100_2475_100_1000000_1.sp 1 100 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_100_2475_100_1000000_1.sp 1 100 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_100_2475_100_1000000_1.sp 1 100 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_100_2475_100_1000000_1.sp 1 100 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_100_2475_100_1000000_1.sp 1 100 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_100_2475_100_1000000_1.sp 1 100 3 >> ./results/myfwg.txt
+
+./bin/sprand 400 1600 1  -ll1000 -lm1 > ./inputs/sprand_400_1600_1_1000_1.sp
+./bin/dikh_run ./inputs/sprand_400_1600_1_1000_1.sp 1 1 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_400_1600_1_1000_1.sp 1 1 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_400_1600_1_1000_1.sp 1 1 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_400_1600_1_1000_1.sp 1 1 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_400_1600_1_1000_1.sp 1 1 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_400_1600_1_1000_1.sp 1 1 1 >> ./results/myfwg.txt
+
+./bin/sprand 400 1600 1  -ll10000 -lm1000 > ./inputs/sprand_400_1600_1_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_400_1600_1_10000_1000.sp 1 1 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_400_1600_1_10000_1000.sp 1 1 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_400_1600_1_10000_1000.sp 1 1 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_400_1600_1_10000_1000.sp 1 1 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_400_1600_1_10000_1000.sp 1 1 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_400_1600_1_10000_1000.sp 1 1 2 >> ./results/myfwg.txt
+
+./bin/sprand 400 1600 1  -ll1000000 -lm1 > ./inputs/sprand_400_1600_1_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_400_1600_1_1000000_1.sp 1 1 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_400_1600_1_1000000_1.sp 1 1 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_400_1600_1_1000000_1.sp 1 1 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_400_1600_1_1000000_1.sp 1 1 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_400_1600_1_1000000_1.sp 1 1 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_400_1600_1_1000000_1.sp 1 1 3 >> ./results/myfwg.txt
+
+./bin/sprand 400 1600 10  -ll1000 -lm1 > ./inputs/sprand_400_1600_10_1000_1.sp
+./bin/dikh_run ./inputs/sprand_400_1600_10_1000_1.sp 1 10 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_400_1600_10_1000_1.sp 1 10 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_400_1600_10_1000_1.sp 1 10 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_400_1600_10_1000_1.sp 1 10 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_400_1600_10_1000_1.sp 1 10 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_400_1600_10_1000_1.sp 1 10 1 >> ./results/myfwg.txt
+
+./bin/sprand 400 1600 10  -ll10000 -lm1000 > ./inputs/sprand_400_1600_10_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_400_1600_10_10000_1000.sp 1 10 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_400_1600_10_10000_1000.sp 1 10 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_400_1600_10_10000_1000.sp 1 10 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_400_1600_10_10000_1000.sp 1 10 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_400_1600_10_10000_1000.sp 1 10 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_400_1600_10_10000_1000.sp 1 10 2 >> ./results/myfwg.txt
+
+./bin/sprand 400 1600 10  -ll1000000 -lm1 > ./inputs/sprand_400_1600_10_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_400_1600_10_1000000_1.sp 1 10 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_400_1600_10_1000000_1.sp 1 10 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_400_1600_10_1000000_1.sp 1 10 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_400_1600_10_1000000_1.sp 1 10 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_400_1600_10_1000000_1.sp 1 10 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_400_1600_10_1000000_1.sp 1 10 3 >> ./results/myfwg.txt
+
+./bin/sprand 400 1600 100  -ll1000 -lm1 > ./inputs/sprand_400_1600_100_1000_1.sp
+./bin/dikh_run ./inputs/sprand_400_1600_100_1000_1.sp 1 100 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_400_1600_100_1000_1.sp 1 100 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_400_1600_100_1000_1.sp 1 100 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_400_1600_100_1000_1.sp 1 100 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_400_1600_100_1000_1.sp 1 100 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_400_1600_100_1000_1.sp 1 100 1 >> ./results/myfwg.txt
+
+./bin/sprand 400 1600 100  -ll10000 -lm1000 > ./inputs/sprand_400_1600_100_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_400_1600_100_10000_1000.sp 1 100 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_400_1600_100_10000_1000.sp 1 100 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_400_1600_100_10000_1000.sp 1 100 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_400_1600_100_10000_1000.sp 1 100 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_400_1600_100_10000_1000.sp 1 100 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_400_1600_100_10000_1000.sp 1 100 2 >> ./results/myfwg.txt
+
+./bin/sprand 400 1600 100  -ll1000000 -lm1 > ./inputs/sprand_400_1600_100_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_400_1600_100_1000000_1.sp 1 100 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_400_1600_100_1000000_1.sp 1 100 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_400_1600_100_1000000_1.sp 1 100 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_400_1600_100_1000000_1.sp 1 100 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_400_1600_100_1000000_1.sp 1 100 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_400_1600_100_1000000_1.sp 1 100 3 >> ./results/myfwg.txt
+
+./bin/sprand 400 6400 1  -ll1000 -lm1 > ./inputs/sprand_400_6400_1_1000_1.sp
+./bin/dikh_run ./inputs/sprand_400_6400_1_1000_1.sp 1 1 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_400_6400_1_1000_1.sp 1 1 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_400_6400_1_1000_1.sp 1 1 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_400_6400_1_1000_1.sp 1 1 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_400_6400_1_1000_1.sp 1 1 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_400_6400_1_1000_1.sp 1 1 1 >> ./results/myfwg.txt
+
+./bin/sprand 400 6400 1  -ll10000 -lm1000 > ./inputs/sprand_400_6400_1_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_400_6400_1_10000_1000.sp 1 1 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_400_6400_1_10000_1000.sp 1 1 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_400_6400_1_10000_1000.sp 1 1 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_400_6400_1_10000_1000.sp 1 1 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_400_6400_1_10000_1000.sp 1 1 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_400_6400_1_10000_1000.sp 1 1 2 >> ./results/myfwg.txt
+
+./bin/sprand 400 6400 1  -ll1000000 -lm1 > ./inputs/sprand_400_6400_1_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_400_6400_1_1000000_1.sp 1 1 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_400_6400_1_1000000_1.sp 1 1 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_400_6400_1_1000000_1.sp 1 1 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_400_6400_1_1000000_1.sp 1 1 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_400_6400_1_1000000_1.sp 1 1 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_400_6400_1_1000000_1.sp 1 1 3 >> ./results/myfwg.txt
+
+./bin/sprand 400 6400 10  -ll1000 -lm1 > ./inputs/sprand_400_6400_10_1000_1.sp
+./bin/dikh_run ./inputs/sprand_400_6400_10_1000_1.sp 1 10 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_400_6400_10_1000_1.sp 1 10 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_400_6400_10_1000_1.sp 1 10 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_400_6400_10_1000_1.sp 1 10 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_400_6400_10_1000_1.sp 1 10 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_400_6400_10_1000_1.sp 1 10 1 >> ./results/myfwg.txt
+
+./bin/sprand 400 6400 10  -ll10000 -lm1000 > ./inputs/sprand_400_6400_10_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_400_6400_10_10000_1000.sp 1 10 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_400_6400_10_10000_1000.sp 1 10 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_400_6400_10_10000_1000.sp 1 10 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_400_6400_10_10000_1000.sp 1 10 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_400_6400_10_10000_1000.sp 1 10 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_400_6400_10_10000_1000.sp 1 10 2 >> ./results/myfwg.txt
+
+./bin/sprand 400 6400 10  -ll1000000 -lm1 > ./inputs/sprand_400_6400_10_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_400_6400_10_1000000_1.sp 1 10 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_400_6400_10_1000000_1.sp 1 10 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_400_6400_10_1000000_1.sp 1 10 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_400_6400_10_1000000_1.sp 1 10 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_400_6400_10_1000000_1.sp 1 10 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_400_6400_10_1000000_1.sp 1 10 3 >> ./results/myfwg.txt
+
+./bin/sprand 400 6400 100  -ll1000 -lm1 > ./inputs/sprand_400_6400_100_1000_1.sp
+./bin/dikh_run ./inputs/sprand_400_6400_100_1000_1.sp 1 100 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_400_6400_100_1000_1.sp 1 100 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_400_6400_100_1000_1.sp 1 100 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_400_6400_100_1000_1.sp 1 100 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_400_6400_100_1000_1.sp 1 100 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_400_6400_100_1000_1.sp 1 100 1 >> ./results/myfwg.txt
+
+./bin/sprand 400 6400 100  -ll10000 -lm1000 > ./inputs/sprand_400_6400_100_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_400_6400_100_10000_1000.sp 1 100 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_400_6400_100_10000_1000.sp 1 100 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_400_6400_100_10000_1000.sp 1 100 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_400_6400_100_10000_1000.sp 1 100 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_400_6400_100_10000_1000.sp 1 100 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_400_6400_100_10000_1000.sp 1 100 2 >> ./results/myfwg.txt
+
+./bin/sprand 400 6400 100  -ll1000000 -lm1 > ./inputs/sprand_400_6400_100_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_400_6400_100_1000000_1.sp 1 100 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_400_6400_100_1000000_1.sp 1 100 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_400_6400_100_1000000_1.sp 1 100 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_400_6400_100_1000000_1.sp 1 100 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_400_6400_100_1000000_1.sp 1 100 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_400_6400_100_1000000_1.sp 1 100 3 >> ./results/myfwg.txt
+
+./bin/sprand 400 39900 1  -ll1000 -lm1 > ./inputs/sprand_400_39900_1_1000_1.sp
+./bin/dikh_run ./inputs/sprand_400_39900_1_1000_1.sp 1 1 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_400_39900_1_1000_1.sp 1 1 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_400_39900_1_1000_1.sp 1 1 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_400_39900_1_1000_1.sp 1 1 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_400_39900_1_1000_1.sp 1 1 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_400_39900_1_1000_1.sp 1 1 1 >> ./results/myfwg.txt
+
+./bin/sprand 400 39900 1  -ll10000 -lm1000 > ./inputs/sprand_400_39900_1_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_400_39900_1_10000_1000.sp 1 1 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_400_39900_1_10000_1000.sp 1 1 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_400_39900_1_10000_1000.sp 1 1 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_400_39900_1_10000_1000.sp 1 1 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_400_39900_1_10000_1000.sp 1 1 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_400_39900_1_10000_1000.sp 1 1 2 >> ./results/myfwg.txt
+
+./bin/sprand 400 39900 1  -ll1000000 -lm1 > ./inputs/sprand_400_39900_1_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_400_39900_1_1000000_1.sp 1 1 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_400_39900_1_1000000_1.sp 1 1 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_400_39900_1_1000000_1.sp 1 1 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_400_39900_1_1000000_1.sp 1 1 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_400_39900_1_1000000_1.sp 1 1 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_400_39900_1_1000000_1.sp 1 1 3 >> ./results/myfwg.txt
+
+./bin/sprand 400 39900 10  -ll1000 -lm1 > ./inputs/sprand_400_39900_10_1000_1.sp
+./bin/dikh_run ./inputs/sprand_400_39900_10_1000_1.sp 1 10 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_400_39900_10_1000_1.sp 1 10 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_400_39900_10_1000_1.sp 1 10 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_400_39900_10_1000_1.sp 1 10 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_400_39900_10_1000_1.sp 1 10 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_400_39900_10_1000_1.sp 1 10 1 >> ./results/myfwg.txt
+
+./bin/sprand 400 39900 10  -ll10000 -lm1000 > ./inputs/sprand_400_39900_10_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_400_39900_10_10000_1000.sp 1 10 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_400_39900_10_10000_1000.sp 1 10 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_400_39900_10_10000_1000.sp 1 10 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_400_39900_10_10000_1000.sp 1 10 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_400_39900_10_10000_1000.sp 1 10 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_400_39900_10_10000_1000.sp 1 10 2 >> ./results/myfwg.txt
+
+./bin/sprand 400 39900 10  -ll1000000 -lm1 > ./inputs/sprand_400_39900_10_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_400_39900_10_1000000_1.sp 1 10 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_400_39900_10_1000000_1.sp 1 10 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_400_39900_10_1000000_1.sp 1 10 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_400_39900_10_1000000_1.sp 1 10 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_400_39900_10_1000000_1.sp 1 10 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_400_39900_10_1000000_1.sp 1 10 3 >> ./results/myfwg.txt
+
+./bin/sprand 400 39900 100  -ll1000 -lm1 > ./inputs/sprand_400_39900_100_1000_1.sp
+./bin/dikh_run ./inputs/sprand_400_39900_100_1000_1.sp 1 100 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_400_39900_100_1000_1.sp 1 100 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_400_39900_100_1000_1.sp 1 100 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_400_39900_100_1000_1.sp 1 100 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_400_39900_100_1000_1.sp 1 100 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_400_39900_100_1000_1.sp 1 100 1 >> ./results/myfwg.txt
+
+./bin/sprand 400 39900 100  -ll10000 -lm1000 > ./inputs/sprand_400_39900_100_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_400_39900_100_10000_1000.sp 1 100 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_400_39900_100_10000_1000.sp 1 100 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_400_39900_100_10000_1000.sp 1 100 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_400_39900_100_10000_1000.sp 1 100 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_400_39900_100_10000_1000.sp 1 100 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_400_39900_100_10000_1000.sp 1 100 2 >> ./results/myfwg.txt
+
+./bin/sprand 400 39900 100  -ll1000000 -lm1 > ./inputs/sprand_400_39900_100_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_400_39900_100_1000000_1.sp 1 100 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_400_39900_100_1000000_1.sp 1 100 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_400_39900_100_1000000_1.sp 1 100 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_400_39900_100_1000000_1.sp 1 100 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_400_39900_100_1000000_1.sp 1 100 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_400_39900_100_1000000_1.sp 1 100 3 >> ./results/myfwg.txt
+
+./bin/sprand 800 3200 1  -ll1000 -lm1 > ./inputs/sprand_800_3200_1_1000_1.sp
+./bin/dikh_run ./inputs/sprand_800_3200_1_1000_1.sp 1 1 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_800_3200_1_1000_1.sp 1 1 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_800_3200_1_1000_1.sp 1 1 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_800_3200_1_1000_1.sp 1 1 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_800_3200_1_1000_1.sp 1 1 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_800_3200_1_1000_1.sp 1 1 1 >> ./results/myfwg.txt
+
+./bin/sprand 800 3200 1  -ll10000 -lm1000 > ./inputs/sprand_800_3200_1_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_800_3200_1_10000_1000.sp 1 1 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_800_3200_1_10000_1000.sp 1 1 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_800_3200_1_10000_1000.sp 1 1 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_800_3200_1_10000_1000.sp 1 1 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_800_3200_1_10000_1000.sp 1 1 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_800_3200_1_10000_1000.sp 1 1 2 >> ./results/myfwg.txt
+
+./bin/sprand 800 3200 1  -ll1000000 -lm1 > ./inputs/sprand_800_3200_1_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_800_3200_1_1000000_1.sp 1 1 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_800_3200_1_1000000_1.sp 1 1 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_800_3200_1_1000000_1.sp 1 1 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_800_3200_1_1000000_1.sp 1 1 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_800_3200_1_1000000_1.sp 1 1 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_800_3200_1_1000000_1.sp 1 1 3 >> ./results/myfwg.txt
+
+./bin/sprand 800 3200 10  -ll1000 -lm1 > ./inputs/sprand_800_3200_10_1000_1.sp
+./bin/dikh_run ./inputs/sprand_800_3200_10_1000_1.sp 1 10 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_800_3200_10_1000_1.sp 1 10 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_800_3200_10_1000_1.sp 1 10 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_800_3200_10_1000_1.sp 1 10 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_800_3200_10_1000_1.sp 1 10 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_800_3200_10_1000_1.sp 1 10 1 >> ./results/myfwg.txt
+
+./bin/sprand 800 3200 10  -ll10000 -lm1000 > ./inputs/sprand_800_3200_10_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_800_3200_10_10000_1000.sp 1 10 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_800_3200_10_10000_1000.sp 1 10 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_800_3200_10_10000_1000.sp 1 10 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_800_3200_10_10000_1000.sp 1 10 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_800_3200_10_10000_1000.sp 1 10 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_800_3200_10_10000_1000.sp 1 10 2 >> ./results/myfwg.txt
+
+./bin/sprand 800 3200 10  -ll1000000 -lm1 > ./inputs/sprand_800_3200_10_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_800_3200_10_1000000_1.sp 1 10 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_800_3200_10_1000000_1.sp 1 10 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_800_3200_10_1000000_1.sp 1 10 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_800_3200_10_1000000_1.sp 1 10 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_800_3200_10_1000000_1.sp 1 10 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_800_3200_10_1000000_1.sp 1 10 3 >> ./results/myfwg.txt
+
+./bin/sprand 800 3200 100  -ll1000 -lm1 > ./inputs/sprand_800_3200_100_1000_1.sp
+./bin/dikh_run ./inputs/sprand_800_3200_100_1000_1.sp 1 100 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_800_3200_100_1000_1.sp 1 100 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_800_3200_100_1000_1.sp 1 100 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_800_3200_100_1000_1.sp 1 100 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_800_3200_100_1000_1.sp 1 100 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_800_3200_100_1000_1.sp 1 100 1 >> ./results/myfwg.txt
+
+./bin/sprand 800 3200 100  -ll10000 -lm1000 > ./inputs/sprand_800_3200_100_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_800_3200_100_10000_1000.sp 1 100 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_800_3200_100_10000_1000.sp 1 100 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_800_3200_100_10000_1000.sp 1 100 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_800_3200_100_10000_1000.sp 1 100 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_800_3200_100_10000_1000.sp 1 100 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_800_3200_100_10000_1000.sp 1 100 2 >> ./results/myfwg.txt
+
+./bin/sprand 800 3200 100  -ll1000000 -lm1 > ./inputs/sprand_800_3200_100_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_800_3200_100_1000000_1.sp 1 100 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_800_3200_100_1000000_1.sp 1 100 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_800_3200_100_1000000_1.sp 1 100 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_800_3200_100_1000000_1.sp 1 100 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_800_3200_100_1000000_1.sp 1 100 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_800_3200_100_1000000_1.sp 1 100 3 >> ./results/myfwg.txt
+
+./bin/sprand 800 12800 1  -ll1000 -lm1 > ./inputs/sprand_800_12800_1_1000_1.sp
+./bin/dikh_run ./inputs/sprand_800_12800_1_1000_1.sp 1 1 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_800_12800_1_1000_1.sp 1 1 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_800_12800_1_1000_1.sp 1 1 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_800_12800_1_1000_1.sp 1 1 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_800_12800_1_1000_1.sp 1 1 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_800_12800_1_1000_1.sp 1 1 1 >> ./results/myfwg.txt
+
+./bin/sprand 800 12800 1  -ll10000 -lm1000 > ./inputs/sprand_800_12800_1_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_800_12800_1_10000_1000.sp 1 1 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_800_12800_1_10000_1000.sp 1 1 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_800_12800_1_10000_1000.sp 1 1 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_800_12800_1_10000_1000.sp 1 1 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_800_12800_1_10000_1000.sp 1 1 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_800_12800_1_10000_1000.sp 1 1 2 >> ./results/myfwg.txt
+
+./bin/sprand 800 12800 1  -ll1000000 -lm1 > ./inputs/sprand_800_12800_1_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_800_12800_1_1000000_1.sp 1 1 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_800_12800_1_1000000_1.sp 1 1 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_800_12800_1_1000000_1.sp 1 1 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_800_12800_1_1000000_1.sp 1 1 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_800_12800_1_1000000_1.sp 1 1 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_800_12800_1_1000000_1.sp 1 1 3 >> ./results/myfwg.txt
+
+./bin/sprand 800 12800 10  -ll1000 -lm1 > ./inputs/sprand_800_12800_10_1000_1.sp
+./bin/dikh_run ./inputs/sprand_800_12800_10_1000_1.sp 1 10 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_800_12800_10_1000_1.sp 1 10 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_800_12800_10_1000_1.sp 1 10 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_800_12800_10_1000_1.sp 1 10 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_800_12800_10_1000_1.sp 1 10 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_800_12800_10_1000_1.sp 1 10 1 >> ./results/myfwg.txt
+
+./bin/sprand 800 12800 10  -ll10000 -lm1000 > ./inputs/sprand_800_12800_10_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_800_12800_10_10000_1000.sp 1 10 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_800_12800_10_10000_1000.sp 1 10 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_800_12800_10_10000_1000.sp 1 10 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_800_12800_10_10000_1000.sp 1 10 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_800_12800_10_10000_1000.sp 1 10 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_800_12800_10_10000_1000.sp 1 10 2 >> ./results/myfwg.txt
+
+./bin/sprand 800 12800 10  -ll1000000 -lm1 > ./inputs/sprand_800_12800_10_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_800_12800_10_1000000_1.sp 1 10 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_800_12800_10_1000000_1.sp 1 10 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_800_12800_10_1000000_1.sp 1 10 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_800_12800_10_1000000_1.sp 1 10 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_800_12800_10_1000000_1.sp 1 10 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_800_12800_10_1000000_1.sp 1 10 3 >> ./results/myfwg.txt
+
+./bin/sprand 800 12800 100  -ll1000 -lm1 > ./inputs/sprand_800_12800_100_1000_1.sp
+./bin/dikh_run ./inputs/sprand_800_12800_100_1000_1.sp 1 100 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_800_12800_100_1000_1.sp 1 100 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_800_12800_100_1000_1.sp 1 100 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_800_12800_100_1000_1.sp 1 100 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_800_12800_100_1000_1.sp 1 100 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_800_12800_100_1000_1.sp 1 100 1 >> ./results/myfwg.txt
+
+./bin/sprand 800 12800 100  -ll10000 -lm1000 > ./inputs/sprand_800_12800_100_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_800_12800_100_10000_1000.sp 1 100 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_800_12800_100_10000_1000.sp 1 100 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_800_12800_100_10000_1000.sp 1 100 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_800_12800_100_10000_1000.sp 1 100 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_800_12800_100_10000_1000.sp 1 100 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_800_12800_100_10000_1000.sp 1 100 2 >> ./results/myfwg.txt
+
+./bin/sprand 800 12800 100  -ll1000000 -lm1 > ./inputs/sprand_800_12800_100_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_800_12800_100_1000000_1.sp 1 100 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_800_12800_100_1000000_1.sp 1 100 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_800_12800_100_1000000_1.sp 1 100 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_800_12800_100_1000000_1.sp 1 100 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_800_12800_100_1000000_1.sp 1 100 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_800_12800_100_1000000_1.sp 1 100 3 >> ./results/myfwg.txt
+
+./bin/sprand 800 159800 1  -ll1000 -lm1 > ./inputs/sprand_800_159800_1_1000_1.sp
+./bin/dikh_run ./inputs/sprand_800_159800_1_1000_1.sp 1 1 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_800_159800_1_1000_1.sp 1 1 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_800_159800_1_1000_1.sp 1 1 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_800_159800_1_1000_1.sp 1 1 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_800_159800_1_1000_1.sp 1 1 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_800_159800_1_1000_1.sp 1 1 1 >> ./results/myfwg.txt
+
+./bin/sprand 800 159800 1  -ll10000 -lm1000 > ./inputs/sprand_800_159800_1_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_800_159800_1_10000_1000.sp 1 1 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_800_159800_1_10000_1000.sp 1 1 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_800_159800_1_10000_1000.sp 1 1 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_800_159800_1_10000_1000.sp 1 1 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_800_159800_1_10000_1000.sp 1 1 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_800_159800_1_10000_1000.sp 1 1 2 >> ./results/myfwg.txt
+
+./bin/sprand 800 159800 1  -ll1000000 -lm1 > ./inputs/sprand_800_159800_1_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_800_159800_1_1000000_1.sp 1 1 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_800_159800_1_1000000_1.sp 1 1 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_800_159800_1_1000000_1.sp 1 1 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_800_159800_1_1000000_1.sp 1 1 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_800_159800_1_1000000_1.sp 1 1 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_800_159800_1_1000000_1.sp 1 1 3 >> ./results/myfwg.txt
+
+./bin/sprand 800 159800 10  -ll1000 -lm1 > ./inputs/sprand_800_159800_10_1000_1.sp
+./bin/dikh_run ./inputs/sprand_800_159800_10_1000_1.sp 1 10 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_800_159800_10_1000_1.sp 1 10 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_800_159800_10_1000_1.sp 1 10 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_800_159800_10_1000_1.sp 1 10 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_800_159800_10_1000_1.sp 1 10 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_800_159800_10_1000_1.sp 1 10 1 >> ./results/myfwg.txt
+
+./bin/sprand 800 159800 10  -ll10000 -lm1000 > ./inputs/sprand_800_159800_10_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_800_159800_10_10000_1000.sp 1 10 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_800_159800_10_10000_1000.sp 1 10 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_800_159800_10_10000_1000.sp 1 10 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_800_159800_10_10000_1000.sp 1 10 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_800_159800_10_10000_1000.sp 1 10 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_800_159800_10_10000_1000.sp 1 10 2 >> ./results/myfwg.txt
+
+./bin/sprand 800 159800 10  -ll1000000 -lm1 > ./inputs/sprand_800_159800_10_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_800_159800_10_1000000_1.sp 1 10 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_800_159800_10_1000000_1.sp 1 10 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_800_159800_10_1000000_1.sp 1 10 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_800_159800_10_1000000_1.sp 1 10 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_800_159800_10_1000000_1.sp 1 10 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_800_159800_10_1000000_1.sp 1 10 3 >> ./results/myfwg.txt
+
+./bin/sprand 800 159800 100  -ll1000 -lm1 > ./inputs/sprand_800_159800_100_1000_1.sp
+./bin/dikh_run ./inputs/sprand_800_159800_100_1000_1.sp 1 100 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_800_159800_100_1000_1.sp 1 100 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_800_159800_100_1000_1.sp 1 100 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_800_159800_100_1000_1.sp 1 100 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_800_159800_100_1000_1.sp 1 100 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_800_159800_100_1000_1.sp 1 100 1 >> ./results/myfwg.txt
+
+./bin/sprand 800 159800 100  -ll10000 -lm1000 > ./inputs/sprand_800_159800_100_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_800_159800_100_10000_1000.sp 1 100 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_800_159800_100_10000_1000.sp 1 100 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_800_159800_100_10000_1000.sp 1 100 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_800_159800_100_10000_1000.sp 1 100 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_800_159800_100_10000_1000.sp 1 100 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_800_159800_100_10000_1000.sp 1 100 2 >> ./results/myfwg.txt
+
+./bin/sprand 800 159800 100  -ll1000000 -lm1 > ./inputs/sprand_800_159800_100_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_800_159800_100_1000000_1.sp 1 100 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_800_159800_100_1000000_1.sp 1 100 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_800_159800_100_1000000_1.sp 1 100 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_800_159800_100_1000000_1.sp 1 100 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_800_159800_100_1000000_1.sp 1 100 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_800_159800_100_1000000_1.sp 1 100 3 >> ./results/myfwg.txt
+
+./bin/sprand 1600 6400 1  -ll1000 -lm1 > ./inputs/sprand_1600_6400_1_1000_1.sp
+./bin/dikh_run ./inputs/sprand_1600_6400_1_1000_1.sp 1 1 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_1600_6400_1_1000_1.sp 1 1 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_1600_6400_1_1000_1.sp 1 1 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_1600_6400_1_1000_1.sp 1 1 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_1600_6400_1_1000_1.sp 1 1 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_1600_6400_1_1000_1.sp 1 1 1 >> ./results/myfwg.txt
+
+./bin/sprand 1600 6400 1  -ll10000 -lm1000 > ./inputs/sprand_1600_6400_1_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_1600_6400_1_10000_1000.sp 1 1 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_1600_6400_1_10000_1000.sp 1 1 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_1600_6400_1_10000_1000.sp 1 1 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_1600_6400_1_10000_1000.sp 1 1 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_1600_6400_1_10000_1000.sp 1 1 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_1600_6400_1_10000_1000.sp 1 1 2 >> ./results/myfwg.txt
+
+./bin/sprand 1600 6400 1  -ll1000000 -lm1 > ./inputs/sprand_1600_6400_1_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_1600_6400_1_1000000_1.sp 1 1 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_1600_6400_1_1000000_1.sp 1 1 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_1600_6400_1_1000000_1.sp 1 1 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_1600_6400_1_1000000_1.sp 1 1 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_1600_6400_1_1000000_1.sp 1 1 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_1600_6400_1_1000000_1.sp 1 1 3 >> ./results/myfwg.txt
+
+./bin/sprand 1600 6400 10  -ll1000 -lm1 > ./inputs/sprand_1600_6400_10_1000_1.sp
+./bin/dikh_run ./inputs/sprand_1600_6400_10_1000_1.sp 1 10 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_1600_6400_10_1000_1.sp 1 10 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_1600_6400_10_1000_1.sp 1 10 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_1600_6400_10_1000_1.sp 1 10 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_1600_6400_10_1000_1.sp 1 10 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_1600_6400_10_1000_1.sp 1 10 1 >> ./results/myfwg.txt
+
+./bin/sprand 1600 6400 10  -ll10000 -lm1000 > ./inputs/sprand_1600_6400_10_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_1600_6400_10_10000_1000.sp 1 10 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_1600_6400_10_10000_1000.sp 1 10 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_1600_6400_10_10000_1000.sp 1 10 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_1600_6400_10_10000_1000.sp 1 10 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_1600_6400_10_10000_1000.sp 1 10 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_1600_6400_10_10000_1000.sp 1 10 2 >> ./results/myfwg.txt
+
+./bin/sprand 1600 6400 10  -ll1000000 -lm1 > ./inputs/sprand_1600_6400_10_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_1600_6400_10_1000000_1.sp 1 10 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_1600_6400_10_1000000_1.sp 1 10 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_1600_6400_10_1000000_1.sp 1 10 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_1600_6400_10_1000000_1.sp 1 10 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_1600_6400_10_1000000_1.sp 1 10 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_1600_6400_10_1000000_1.sp 1 10 3 >> ./results/myfwg.txt
+
+./bin/sprand 1600 6400 100  -ll1000 -lm1 > ./inputs/sprand_1600_6400_100_1000_1.sp
+./bin/dikh_run ./inputs/sprand_1600_6400_100_1000_1.sp 1 100 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_1600_6400_100_1000_1.sp 1 100 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_1600_6400_100_1000_1.sp 1 100 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_1600_6400_100_1000_1.sp 1 100 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_1600_6400_100_1000_1.sp 1 100 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_1600_6400_100_1000_1.sp 1 100 1 >> ./results/myfwg.txt
+
+./bin/sprand 1600 6400 100  -ll10000 -lm1000 > ./inputs/sprand_1600_6400_100_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_1600_6400_100_10000_1000.sp 1 100 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_1600_6400_100_10000_1000.sp 1 100 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_1600_6400_100_10000_1000.sp 1 100 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_1600_6400_100_10000_1000.sp 1 100 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_1600_6400_100_10000_1000.sp 1 100 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_1600_6400_100_10000_1000.sp 1 100 2 >> ./results/myfwg.txt
+
+./bin/sprand 1600 6400 100  -ll1000000 -lm1 > ./inputs/sprand_1600_6400_100_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_1600_6400_100_1000000_1.sp 1 100 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_1600_6400_100_1000000_1.sp 1 100 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_1600_6400_100_1000000_1.sp 1 100 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_1600_6400_100_1000000_1.sp 1 100 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_1600_6400_100_1000000_1.sp 1 100 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_1600_6400_100_1000000_1.sp 1 100 3 >> ./results/myfwg.txt
+
+./bin/sprand 1600 25600 1  -ll1000 -lm1 > ./inputs/sprand_1600_25600_1_1000_1.sp
+./bin/dikh_run ./inputs/sprand_1600_25600_1_1000_1.sp 1 1 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_1600_25600_1_1000_1.sp 1 1 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_1600_25600_1_1000_1.sp 1 1 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_1600_25600_1_1000_1.sp 1 1 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_1600_25600_1_1000_1.sp 1 1 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_1600_25600_1_1000_1.sp 1 1 1 >> ./results/myfwg.txt
+
+./bin/sprand 1600 25600 1  -ll10000 -lm1000 > ./inputs/sprand_1600_25600_1_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_1600_25600_1_10000_1000.sp 1 1 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_1600_25600_1_10000_1000.sp 1 1 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_1600_25600_1_10000_1000.sp 1 1 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_1600_25600_1_10000_1000.sp 1 1 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_1600_25600_1_10000_1000.sp 1 1 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_1600_25600_1_10000_1000.sp 1 1 2 >> ./results/myfwg.txt
+
+./bin/sprand 1600 25600 1  -ll1000000 -lm1 > ./inputs/sprand_1600_25600_1_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_1600_25600_1_1000000_1.sp 1 1 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_1600_25600_1_1000000_1.sp 1 1 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_1600_25600_1_1000000_1.sp 1 1 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_1600_25600_1_1000000_1.sp 1 1 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_1600_25600_1_1000000_1.sp 1 1 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_1600_25600_1_1000000_1.sp 1 1 3 >> ./results/myfwg.txt
+
+./bin/sprand 1600 25600 10  -ll1000 -lm1 > ./inputs/sprand_1600_25600_10_1000_1.sp
+./bin/dikh_run ./inputs/sprand_1600_25600_10_1000_1.sp 1 10 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_1600_25600_10_1000_1.sp 1 10 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_1600_25600_10_1000_1.sp 1 10 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_1600_25600_10_1000_1.sp 1 10 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_1600_25600_10_1000_1.sp 1 10 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_1600_25600_10_1000_1.sp 1 10 1 >> ./results/myfwg.txt
+
+./bin/sprand 1600 25600 10  -ll10000 -lm1000 > ./inputs/sprand_1600_25600_10_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_1600_25600_10_10000_1000.sp 1 10 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_1600_25600_10_10000_1000.sp 1 10 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_1600_25600_10_10000_1000.sp 1 10 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_1600_25600_10_10000_1000.sp 1 10 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_1600_25600_10_10000_1000.sp 1 10 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_1600_25600_10_10000_1000.sp 1 10 2 >> ./results/myfwg.txt
+
+./bin/sprand 1600 25600 10  -ll1000000 -lm1 > ./inputs/sprand_1600_25600_10_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_1600_25600_10_1000000_1.sp 1 10 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_1600_25600_10_1000000_1.sp 1 10 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_1600_25600_10_1000000_1.sp 1 10 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_1600_25600_10_1000000_1.sp 1 10 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_1600_25600_10_1000000_1.sp 1 10 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_1600_25600_10_1000000_1.sp 1 10 3 >> ./results/myfwg.txt
+
+./bin/sprand 1600 25600 100  -ll1000 -lm1 > ./inputs/sprand_1600_25600_100_1000_1.sp
+./bin/dikh_run ./inputs/sprand_1600_25600_100_1000_1.sp 1 100 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_1600_25600_100_1000_1.sp 1 100 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_1600_25600_100_1000_1.sp 1 100 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_1600_25600_100_1000_1.sp 1 100 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_1600_25600_100_1000_1.sp 1 100 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_1600_25600_100_1000_1.sp 1 100 1 >> ./results/myfwg.txt
+
+./bin/sprand 1600 25600 100  -ll10000 -lm1000 > ./inputs/sprand_1600_25600_100_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_1600_25600_100_10000_1000.sp 1 100 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_1600_25600_100_10000_1000.sp 1 100 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_1600_25600_100_10000_1000.sp 1 100 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_1600_25600_100_10000_1000.sp 1 100 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_1600_25600_100_10000_1000.sp 1 100 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_1600_25600_100_10000_1000.sp 1 100 2 >> ./results/myfwg.txt
+
+./bin/sprand 1600 25600 100  -ll1000000 -lm1 > ./inputs/sprand_1600_25600_100_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_1600_25600_100_1000000_1.sp 1 100 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_1600_25600_100_1000000_1.sp 1 100 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_1600_25600_100_1000000_1.sp 1 100 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_1600_25600_100_1000000_1.sp 1 100 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_1600_25600_100_1000000_1.sp 1 100 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_1600_25600_100_1000000_1.sp 1 100 3 >> ./results/myfwg.txt
+
+./bin/sprand 1600 639600 1  -ll1000 -lm1 > ./inputs/sprand_1600_639600_1_1000_1.sp
+./bin/dikh_run ./inputs/sprand_1600_639600_1_1000_1.sp 1 1 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_1600_639600_1_1000_1.sp 1 1 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_1600_639600_1_1000_1.sp 1 1 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_1600_639600_1_1000_1.sp 1 1 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_1600_639600_1_1000_1.sp 1 1 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_1600_639600_1_1000_1.sp 1 1 1 >> ./results/myfwg.txt
+
+./bin/sprand 1600 639600 1  -ll10000 -lm1000 > ./inputs/sprand_1600_639600_1_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_1600_639600_1_10000_1000.sp 1 1 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_1600_639600_1_10000_1000.sp 1 1 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_1600_639600_1_10000_1000.sp 1 1 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_1600_639600_1_10000_1000.sp 1 1 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_1600_639600_1_10000_1000.sp 1 1 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_1600_639600_1_10000_1000.sp 1 1 2 >> ./results/myfwg.txt
+
+./bin/sprand 1600 639600 1  -ll1000000 -lm1 > ./inputs/sprand_1600_639600_1_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_1600_639600_1_1000000_1.sp 1 1 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_1600_639600_1_1000000_1.sp 1 1 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_1600_639600_1_1000000_1.sp 1 1 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_1600_639600_1_1000000_1.sp 1 1 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_1600_639600_1_1000000_1.sp 1 1 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_1600_639600_1_1000000_1.sp 1 1 3 >> ./results/myfwg.txt
+
+./bin/sprand 1600 639600 10  -ll1000 -lm1 > ./inputs/sprand_1600_639600_10_1000_1.sp
+./bin/dikh_run ./inputs/sprand_1600_639600_10_1000_1.sp 1 10 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_1600_639600_10_1000_1.sp 1 10 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_1600_639600_10_1000_1.sp 1 10 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_1600_639600_10_1000_1.sp 1 10 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_1600_639600_10_1000_1.sp 1 10 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_1600_639600_10_1000_1.sp 1 10 1 >> ./results/myfwg.txt
+
+./bin/sprand 1600 639600 10  -ll10000 -lm1000 > ./inputs/sprand_1600_639600_10_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_1600_639600_10_10000_1000.sp 1 10 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_1600_639600_10_10000_1000.sp 1 10 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_1600_639600_10_10000_1000.sp 1 10 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_1600_639600_10_10000_1000.sp 1 10 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_1600_639600_10_10000_1000.sp 1 10 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_1600_639600_10_10000_1000.sp 1 10 2 >> ./results/myfwg.txt
+
+./bin/sprand 1600 639600 10  -ll1000000 -lm1 > ./inputs/sprand_1600_639600_10_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_1600_639600_10_1000000_1.sp 1 10 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_1600_639600_10_1000000_1.sp 1 10 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_1600_639600_10_1000000_1.sp 1 10 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_1600_639600_10_1000000_1.sp 1 10 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_1600_639600_10_1000000_1.sp 1 10 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_1600_639600_10_1000000_1.sp 1 10 3 >> ./results/myfwg.txt
+
+./bin/sprand 1600 639600 100  -ll1000 -lm1 > ./inputs/sprand_1600_639600_100_1000_1.sp
+./bin/dikh_run ./inputs/sprand_1600_639600_100_1000_1.sp 1 100 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_1600_639600_100_1000_1.sp 1 100 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_1600_639600_100_1000_1.sp 1 100 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_1600_639600_100_1000_1.sp 1 100 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_1600_639600_100_1000_1.sp 1 100 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_1600_639600_100_1000_1.sp 1 100 1 >> ./results/myfwg.txt
+
+./bin/sprand 1600 639600 100  -ll10000 -lm1000 > ./inputs/sprand_1600_639600_100_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_1600_639600_100_10000_1000.sp 1 100 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_1600_639600_100_10000_1000.sp 1 100 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_1600_639600_100_10000_1000.sp 1 100 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_1600_639600_100_10000_1000.sp 1 100 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_1600_639600_100_10000_1000.sp 1 100 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_1600_639600_100_10000_1000.sp 1 100 2 >> ./results/myfwg.txt
+
+./bin/sprand 1600 639600 100  -ll1000000 -lm1 > ./inputs/sprand_1600_639600_100_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_1600_639600_100_1000000_1.sp 1 100 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_1600_639600_100_1000000_1.sp 1 100 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_1600_639600_100_1000000_1.sp 1 100 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_1600_639600_100_1000000_1.sp 1 100 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_1600_639600_100_1000000_1.sp 1 100 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_1600_639600_100_1000000_1.sp 1 100 3 >> ./results/myfwg.txt
+
+./bin/sprand 3200 12800 1  -ll1000 -lm1 > ./inputs/sprand_3200_12800_1_1000_1.sp
+./bin/dikh_run ./inputs/sprand_3200_12800_1_1000_1.sp 1 1 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_3200_12800_1_1000_1.sp 1 1 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_3200_12800_1_1000_1.sp 1 1 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_3200_12800_1_1000_1.sp 1 1 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_3200_12800_1_1000_1.sp 1 1 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_3200_12800_1_1000_1.sp 1 1 1 >> ./results/myfwg.txt
+
+./bin/sprand 3200 12800 1  -ll10000 -lm1000 > ./inputs/sprand_3200_12800_1_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_3200_12800_1_10000_1000.sp 1 1 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_3200_12800_1_10000_1000.sp 1 1 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_3200_12800_1_10000_1000.sp 1 1 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_3200_12800_1_10000_1000.sp 1 1 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_3200_12800_1_10000_1000.sp 1 1 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_3200_12800_1_10000_1000.sp 1 1 2 >> ./results/myfwg.txt
+
+./bin/sprand 3200 12800 1  -ll1000000 -lm1 > ./inputs/sprand_3200_12800_1_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_3200_12800_1_1000000_1.sp 1 1 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_3200_12800_1_1000000_1.sp 1 1 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_3200_12800_1_1000000_1.sp 1 1 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_3200_12800_1_1000000_1.sp 1 1 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_3200_12800_1_1000000_1.sp 1 1 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_3200_12800_1_1000000_1.sp 1 1 3 >> ./results/myfwg.txt
+
+./bin/sprand 3200 12800 10  -ll1000 -lm1 > ./inputs/sprand_3200_12800_10_1000_1.sp
+./bin/dikh_run ./inputs/sprand_3200_12800_10_1000_1.sp 1 10 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_3200_12800_10_1000_1.sp 1 10 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_3200_12800_10_1000_1.sp 1 10 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_3200_12800_10_1000_1.sp 1 10 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_3200_12800_10_1000_1.sp 1 10 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_3200_12800_10_1000_1.sp 1 10 1 >> ./results/myfwg.txt
+
+./bin/sprand 3200 12800 10  -ll10000 -lm1000 > ./inputs/sprand_3200_12800_10_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_3200_12800_10_10000_1000.sp 1 10 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_3200_12800_10_10000_1000.sp 1 10 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_3200_12800_10_10000_1000.sp 1 10 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_3200_12800_10_10000_1000.sp 1 10 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_3200_12800_10_10000_1000.sp 1 10 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_3200_12800_10_10000_1000.sp 1 10 2 >> ./results/myfwg.txt
+
+./bin/sprand 3200 12800 10  -ll1000000 -lm1 > ./inputs/sprand_3200_12800_10_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_3200_12800_10_1000000_1.sp 1 10 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_3200_12800_10_1000000_1.sp 1 10 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_3200_12800_10_1000000_1.sp 1 10 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_3200_12800_10_1000000_1.sp 1 10 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_3200_12800_10_1000000_1.sp 1 10 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_3200_12800_10_1000000_1.sp 1 10 3 >> ./results/myfwg.txt
+
+./bin/sprand 3200 12800 100  -ll1000 -lm1 > ./inputs/sprand_3200_12800_100_1000_1.sp
+./bin/dikh_run ./inputs/sprand_3200_12800_100_1000_1.sp 1 100 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_3200_12800_100_1000_1.sp 1 100 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_3200_12800_100_1000_1.sp 1 100 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_3200_12800_100_1000_1.sp 1 100 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_3200_12800_100_1000_1.sp 1 100 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_3200_12800_100_1000_1.sp 1 100 1 >> ./results/myfwg.txt
+
+./bin/sprand 3200 12800 100  -ll10000 -lm1000 > ./inputs/sprand_3200_12800_100_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_3200_12800_100_10000_1000.sp 1 100 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_3200_12800_100_10000_1000.sp 1 100 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_3200_12800_100_10000_1000.sp 1 100 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_3200_12800_100_10000_1000.sp 1 100 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_3200_12800_100_10000_1000.sp 1 100 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_3200_12800_100_10000_1000.sp 1 100 2 >> ./results/myfwg.txt
+
+./bin/sprand 3200 12800 100  -ll1000000 -lm1 > ./inputs/sprand_3200_12800_100_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_3200_12800_100_1000000_1.sp 1 100 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_3200_12800_100_1000000_1.sp 1 100 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_3200_12800_100_1000000_1.sp 1 100 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_3200_12800_100_1000000_1.sp 1 100 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_3200_12800_100_1000000_1.sp 1 100 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_3200_12800_100_1000000_1.sp 1 100 3 >> ./results/myfwg.txt
+
+./bin/sprand 3200 51200 1  -ll1000 -lm1 > ./inputs/sprand_3200_51200_1_1000_1.sp
+./bin/dikh_run ./inputs/sprand_3200_51200_1_1000_1.sp 1 1 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_3200_51200_1_1000_1.sp 1 1 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_3200_51200_1_1000_1.sp 1 1 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_3200_51200_1_1000_1.sp 1 1 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_3200_51200_1_1000_1.sp 1 1 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_3200_51200_1_1000_1.sp 1 1 1 >> ./results/myfwg.txt
+
+./bin/sprand 3200 51200 1  -ll10000 -lm1000 > ./inputs/sprand_3200_51200_1_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_3200_51200_1_10000_1000.sp 1 1 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_3200_51200_1_10000_1000.sp 1 1 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_3200_51200_1_10000_1000.sp 1 1 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_3200_51200_1_10000_1000.sp 1 1 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_3200_51200_1_10000_1000.sp 1 1 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_3200_51200_1_10000_1000.sp 1 1 2 >> ./results/myfwg.txt
+
+./bin/sprand 3200 51200 1  -ll1000000 -lm1 > ./inputs/sprand_3200_51200_1_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_3200_51200_1_1000000_1.sp 1 1 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_3200_51200_1_1000000_1.sp 1 1 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_3200_51200_1_1000000_1.sp 1 1 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_3200_51200_1_1000000_1.sp 1 1 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_3200_51200_1_1000000_1.sp 1 1 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_3200_51200_1_1000000_1.sp 1 1 3 >> ./results/myfwg.txt
+
+./bin/sprand 3200 51200 10  -ll1000 -lm1 > ./inputs/sprand_3200_51200_10_1000_1.sp
+./bin/dikh_run ./inputs/sprand_3200_51200_10_1000_1.sp 1 10 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_3200_51200_10_1000_1.sp 1 10 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_3200_51200_10_1000_1.sp 1 10 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_3200_51200_10_1000_1.sp 1 10 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_3200_51200_10_1000_1.sp 1 10 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_3200_51200_10_1000_1.sp 1 10 1 >> ./results/myfwg.txt
+
+./bin/sprand 3200 51200 10  -ll10000 -lm1000 > ./inputs/sprand_3200_51200_10_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_3200_51200_10_10000_1000.sp 1 10 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_3200_51200_10_10000_1000.sp 1 10 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_3200_51200_10_10000_1000.sp 1 10 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_3200_51200_10_10000_1000.sp 1 10 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_3200_51200_10_10000_1000.sp 1 10 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_3200_51200_10_10000_1000.sp 1 10 2 >> ./results/myfwg.txt
+
+./bin/sprand 3200 51200 10  -ll1000000 -lm1 > ./inputs/sprand_3200_51200_10_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_3200_51200_10_1000000_1.sp 1 10 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_3200_51200_10_1000000_1.sp 1 10 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_3200_51200_10_1000000_1.sp 1 10 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_3200_51200_10_1000000_1.sp 1 10 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_3200_51200_10_1000000_1.sp 1 10 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_3200_51200_10_1000000_1.sp 1 10 3 >> ./results/myfwg.txt
+
+./bin/sprand 3200 51200 100  -ll1000 -lm1 > ./inputs/sprand_3200_51200_100_1000_1.sp
+./bin/dikh_run ./inputs/sprand_3200_51200_100_1000_1.sp 1 100 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_3200_51200_100_1000_1.sp 1 100 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_3200_51200_100_1000_1.sp 1 100 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_3200_51200_100_1000_1.sp 1 100 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_3200_51200_100_1000_1.sp 1 100 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_3200_51200_100_1000_1.sp 1 100 1 >> ./results/myfwg.txt
+
+./bin/sprand 3200 51200 100  -ll10000 -lm1000 > ./inputs/sprand_3200_51200_100_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_3200_51200_100_10000_1000.sp 1 100 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_3200_51200_100_10000_1000.sp 1 100 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_3200_51200_100_10000_1000.sp 1 100 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_3200_51200_100_10000_1000.sp 1 100 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_3200_51200_100_10000_1000.sp 1 100 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_3200_51200_100_10000_1000.sp 1 100 2 >> ./results/myfwg.txt
+
+./bin/sprand 3200 51200 100  -ll1000000 -lm1 > ./inputs/sprand_3200_51200_100_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_3200_51200_100_1000000_1.sp 1 100 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_3200_51200_100_1000000_1.sp 1 100 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_3200_51200_100_1000000_1.sp 1 100 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_3200_51200_100_1000000_1.sp 1 100 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_3200_51200_100_1000000_1.sp 1 100 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_3200_51200_100_1000000_1.sp 1 100 3 >> ./results/myfwg.txt
+
+./bin/sprand 3200 2559200 1  -ll1000 -lm1 > ./inputs/sprand_3200_2559200_1_1000_1.sp
+./bin/dikh_run ./inputs/sprand_3200_2559200_1_1000_1.sp 1 1 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_3200_2559200_1_1000_1.sp 1 1 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_3200_2559200_1_1000_1.sp 1 1 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_3200_2559200_1_1000_1.sp 1 1 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_3200_2559200_1_1000_1.sp 1 1 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_3200_2559200_1_1000_1.sp 1 1 1 >> ./results/myfwg.txt
+
+./bin/sprand 3200 2559200 1  -ll10000 -lm1000 > ./inputs/sprand_3200_2559200_1_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_3200_2559200_1_10000_1000.sp 1 1 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_3200_2559200_1_10000_1000.sp 1 1 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_3200_2559200_1_10000_1000.sp 1 1 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_3200_2559200_1_10000_1000.sp 1 1 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_3200_2559200_1_10000_1000.sp 1 1 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_3200_2559200_1_10000_1000.sp 1 1 2 >> ./results/myfwg.txt
+
+./bin/sprand 3200 2559200 1  -ll1000000 -lm1 > ./inputs/sprand_3200_2559200_1_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_3200_2559200_1_1000000_1.sp 1 1 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_3200_2559200_1_1000000_1.sp 1 1 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_3200_2559200_1_1000000_1.sp 1 1 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_3200_2559200_1_1000000_1.sp 1 1 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_3200_2559200_1_1000000_1.sp 1 1 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_3200_2559200_1_1000000_1.sp 1 1 3 >> ./results/myfwg.txt
+
+./bin/sprand 3200 2559200 10  -ll1000 -lm1 > ./inputs/sprand_3200_2559200_10_1000_1.sp
+./bin/dikh_run ./inputs/sprand_3200_2559200_10_1000_1.sp 1 10 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_3200_2559200_10_1000_1.sp 1 10 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_3200_2559200_10_1000_1.sp 1 10 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_3200_2559200_10_1000_1.sp 1 10 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_3200_2559200_10_1000_1.sp 1 10 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_3200_2559200_10_1000_1.sp 1 10 1 >> ./results/myfwg.txt
+
+./bin/sprand 3200 2559200 10  -ll10000 -lm1000 > ./inputs/sprand_3200_2559200_10_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_3200_2559200_10_10000_1000.sp 1 10 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_3200_2559200_10_10000_1000.sp 1 10 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_3200_2559200_10_10000_1000.sp 1 10 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_3200_2559200_10_10000_1000.sp 1 10 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_3200_2559200_10_10000_1000.sp 1 10 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_3200_2559200_10_10000_1000.sp 1 10 2 >> ./results/myfwg.txt
+
+./bin/sprand 3200 2559200 10  -ll1000000 -lm1 > ./inputs/sprand_3200_2559200_10_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_3200_2559200_10_1000000_1.sp 1 10 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_3200_2559200_10_1000000_1.sp 1 10 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_3200_2559200_10_1000000_1.sp 1 10 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_3200_2559200_10_1000000_1.sp 1 10 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_3200_2559200_10_1000000_1.sp 1 10 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_3200_2559200_10_1000000_1.sp 1 10 3 >> ./results/myfwg.txt
+
+./bin/sprand 3200 2559200 100  -ll1000 -lm1 > ./inputs/sprand_3200_2559200_100_1000_1.sp
+./bin/dikh_run ./inputs/sprand_3200_2559200_100_1000_1.sp 1 100 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_3200_2559200_100_1000_1.sp 1 100 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_3200_2559200_100_1000_1.sp 1 100 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_3200_2559200_100_1000_1.sp 1 100 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_3200_2559200_100_1000_1.sp 1 100 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_3200_2559200_100_1000_1.sp 1 100 1 >> ./results/myfwg.txt
+
+./bin/sprand 3200 2559200 100  -ll10000 -lm1000 > ./inputs/sprand_3200_2559200_100_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_3200_2559200_100_10000_1000.sp 1 100 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_3200_2559200_100_10000_1000.sp 1 100 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_3200_2559200_100_10000_1000.sp 1 100 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_3200_2559200_100_10000_1000.sp 1 100 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_3200_2559200_100_10000_1000.sp 1 100 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_3200_2559200_100_10000_1000.sp 1 100 2 >> ./results/myfwg.txt
+
+./bin/sprand 3200 2559200 100  -ll1000000 -lm1 > ./inputs/sprand_3200_2559200_100_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_3200_2559200_100_1000000_1.sp 1 100 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_3200_2559200_100_1000000_1.sp 1 100 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_3200_2559200_100_1000000_1.sp 1 100 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_3200_2559200_100_1000000_1.sp 1 100 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_3200_2559200_100_1000000_1.sp 1 100 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_3200_2559200_100_1000000_1.sp 1 100 3 >> ./results/myfwg.txt
+
+./bin/sprand 6400 25600 1  -ll1000 -lm1 > ./inputs/sprand_6400_25600_1_1000_1.sp
+./bin/dikh_run ./inputs/sprand_6400_25600_1_1000_1.sp 1 1 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_6400_25600_1_1000_1.sp 1 1 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_6400_25600_1_1000_1.sp 1 1 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_6400_25600_1_1000_1.sp 1 1 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_6400_25600_1_1000_1.sp 1 1 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_6400_25600_1_1000_1.sp 1 1 1 >> ./results/myfwg.txt
+
+./bin/sprand 6400 25600 1  -ll10000 -lm1000 > ./inputs/sprand_6400_25600_1_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_6400_25600_1_10000_1000.sp 1 1 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_6400_25600_1_10000_1000.sp 1 1 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_6400_25600_1_10000_1000.sp 1 1 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_6400_25600_1_10000_1000.sp 1 1 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_6400_25600_1_10000_1000.sp 1 1 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_6400_25600_1_10000_1000.sp 1 1 2 >> ./results/myfwg.txt
+
+./bin/sprand 6400 25600 1  -ll1000000 -lm1 > ./inputs/sprand_6400_25600_1_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_6400_25600_1_1000000_1.sp 1 1 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_6400_25600_1_1000000_1.sp 1 1 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_6400_25600_1_1000000_1.sp 1 1 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_6400_25600_1_1000000_1.sp 1 1 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_6400_25600_1_1000000_1.sp 1 1 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_6400_25600_1_1000000_1.sp 1 1 3 >> ./results/myfwg.txt
+
+./bin/sprand 6400 25600 10  -ll1000 -lm1 > ./inputs/sprand_6400_25600_10_1000_1.sp
+./bin/dikh_run ./inputs/sprand_6400_25600_10_1000_1.sp 1 10 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_6400_25600_10_1000_1.sp 1 10 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_6400_25600_10_1000_1.sp 1 10 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_6400_25600_10_1000_1.sp 1 10 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_6400_25600_10_1000_1.sp 1 10 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_6400_25600_10_1000_1.sp 1 10 1 >> ./results/myfwg.txt
+
+./bin/sprand 6400 25600 10  -ll10000 -lm1000 > ./inputs/sprand_6400_25600_10_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_6400_25600_10_10000_1000.sp 1 10 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_6400_25600_10_10000_1000.sp 1 10 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_6400_25600_10_10000_1000.sp 1 10 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_6400_25600_10_10000_1000.sp 1 10 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_6400_25600_10_10000_1000.sp 1 10 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_6400_25600_10_10000_1000.sp 1 10 2 >> ./results/myfwg.txt
+
+./bin/sprand 6400 25600 10  -ll1000000 -lm1 > ./inputs/sprand_6400_25600_10_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_6400_25600_10_1000000_1.sp 1 10 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_6400_25600_10_1000000_1.sp 1 10 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_6400_25600_10_1000000_1.sp 1 10 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_6400_25600_10_1000000_1.sp 1 10 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_6400_25600_10_1000000_1.sp 1 10 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_6400_25600_10_1000000_1.sp 1 10 3 >> ./results/myfwg.txt
+
+./bin/sprand 6400 25600 100  -ll1000 -lm1 > ./inputs/sprand_6400_25600_100_1000_1.sp
+./bin/dikh_run ./inputs/sprand_6400_25600_100_1000_1.sp 1 100 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_6400_25600_100_1000_1.sp 1 100 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_6400_25600_100_1000_1.sp 1 100 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_6400_25600_100_1000_1.sp 1 100 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_6400_25600_100_1000_1.sp 1 100 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_6400_25600_100_1000_1.sp 1 100 1 >> ./results/myfwg.txt
+
+./bin/sprand 6400 25600 100  -ll10000 -lm1000 > ./inputs/sprand_6400_25600_100_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_6400_25600_100_10000_1000.sp 1 100 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_6400_25600_100_10000_1000.sp 1 100 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_6400_25600_100_10000_1000.sp 1 100 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_6400_25600_100_10000_1000.sp 1 100 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_6400_25600_100_10000_1000.sp 1 100 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_6400_25600_100_10000_1000.sp 1 100 2 >> ./results/myfwg.txt
+
+./bin/sprand 6400 25600 100  -ll1000000 -lm1 > ./inputs/sprand_6400_25600_100_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_6400_25600_100_1000000_1.sp 1 100 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_6400_25600_100_1000000_1.sp 1 100 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_6400_25600_100_1000000_1.sp 1 100 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_6400_25600_100_1000000_1.sp 1 100 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_6400_25600_100_1000000_1.sp 1 100 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_6400_25600_100_1000000_1.sp 1 100 3 >> ./results/myfwg.txt
+
+./bin/sprand 6400 102400 1  -ll1000 -lm1 > ./inputs/sprand_6400_102400_1_1000_1.sp
+./bin/dikh_run ./inputs/sprand_6400_102400_1_1000_1.sp 1 1 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_6400_102400_1_1000_1.sp 1 1 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_6400_102400_1_1000_1.sp 1 1 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_6400_102400_1_1000_1.sp 1 1 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_6400_102400_1_1000_1.sp 1 1 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_6400_102400_1_1000_1.sp 1 1 1 >> ./results/myfwg.txt
+
+./bin/sprand 6400 102400 1  -ll10000 -lm1000 > ./inputs/sprand_6400_102400_1_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_6400_102400_1_10000_1000.sp 1 1 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_6400_102400_1_10000_1000.sp 1 1 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_6400_102400_1_10000_1000.sp 1 1 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_6400_102400_1_10000_1000.sp 1 1 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_6400_102400_1_10000_1000.sp 1 1 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_6400_102400_1_10000_1000.sp 1 1 2 >> ./results/myfwg.txt
+
+./bin/sprand 6400 102400 1  -ll1000000 -lm1 > ./inputs/sprand_6400_102400_1_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_6400_102400_1_1000000_1.sp 1 1 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_6400_102400_1_1000000_1.sp 1 1 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_6400_102400_1_1000000_1.sp 1 1 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_6400_102400_1_1000000_1.sp 1 1 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_6400_102400_1_1000000_1.sp 1 1 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_6400_102400_1_1000000_1.sp 1 1 3 >> ./results/myfwg.txt
+
+./bin/sprand 6400 102400 10  -ll1000 -lm1 > ./inputs/sprand_6400_102400_10_1000_1.sp
+./bin/dikh_run ./inputs/sprand_6400_102400_10_1000_1.sp 1 10 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_6400_102400_10_1000_1.sp 1 10 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_6400_102400_10_1000_1.sp 1 10 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_6400_102400_10_1000_1.sp 1 10 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_6400_102400_10_1000_1.sp 1 10 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_6400_102400_10_1000_1.sp 1 10 1 >> ./results/myfwg.txt
+
+./bin/sprand 6400 102400 10  -ll10000 -lm1000 > ./inputs/sprand_6400_102400_10_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_6400_102400_10_10000_1000.sp 1 10 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_6400_102400_10_10000_1000.sp 1 10 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_6400_102400_10_10000_1000.sp 1 10 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_6400_102400_10_10000_1000.sp 1 10 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_6400_102400_10_10000_1000.sp 1 10 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_6400_102400_10_10000_1000.sp 1 10 2 >> ./results/myfwg.txt
+
+./bin/sprand 6400 102400 10  -ll1000000 -lm1 > ./inputs/sprand_6400_102400_10_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_6400_102400_10_1000000_1.sp 1 10 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_6400_102400_10_1000000_1.sp 1 10 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_6400_102400_10_1000000_1.sp 1 10 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_6400_102400_10_1000000_1.sp 1 10 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_6400_102400_10_1000000_1.sp 1 10 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_6400_102400_10_1000000_1.sp 1 10 3 >> ./results/myfwg.txt
+
+./bin/sprand 6400 102400 100  -ll1000 -lm1 > ./inputs/sprand_6400_102400_100_1000_1.sp
+./bin/dikh_run ./inputs/sprand_6400_102400_100_1000_1.sp 1 100 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_6400_102400_100_1000_1.sp 1 100 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_6400_102400_100_1000_1.sp 1 100 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_6400_102400_100_1000_1.sp 1 100 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_6400_102400_100_1000_1.sp 1 100 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_6400_102400_100_1000_1.sp 1 100 1 >> ./results/myfwg.txt
+
+./bin/sprand 6400 102400 100  -ll10000 -lm1000 > ./inputs/sprand_6400_102400_100_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_6400_102400_100_10000_1000.sp 1 100 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_6400_102400_100_10000_1000.sp 1 100 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_6400_102400_100_10000_1000.sp 1 100 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_6400_102400_100_10000_1000.sp 1 100 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_6400_102400_100_10000_1000.sp 1 100 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_6400_102400_100_10000_1000.sp 1 100 2 >> ./results/myfwg.txt
+
+./bin/sprand 6400 102400 100  -ll1000000 -lm1 > ./inputs/sprand_6400_102400_100_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_6400_102400_100_1000000_1.sp 1 100 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_6400_102400_100_1000000_1.sp 1 100 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_6400_102400_100_1000000_1.sp 1 100 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_6400_102400_100_1000000_1.sp 1 100 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_6400_102400_100_1000000_1.sp 1 100 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_6400_102400_100_1000000_1.sp 1 100 3 >> ./results/myfwg.txt
+
+./bin/sprand 6400 10238400 1  -ll1000 -lm1 > ./inputs/sprand_6400_10238400_1_1000_1.sp
+./bin/dikh_run ./inputs/sprand_6400_10238400_1_1000_1.sp 1 1 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_6400_10238400_1_1000_1.sp 1 1 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_6400_10238400_1_1000_1.sp 1 1 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_6400_10238400_1_1000_1.sp 1 1 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_6400_10238400_1_1000_1.sp 1 1 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_6400_10238400_1_1000_1.sp 1 1 1 >> ./results/myfwg.txt
+
+./bin/sprand 6400 10238400 1  -ll10000 -lm1000 > ./inputs/sprand_6400_10238400_1_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_6400_10238400_1_10000_1000.sp 1 1 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_6400_10238400_1_10000_1000.sp 1 1 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_6400_10238400_1_10000_1000.sp 1 1 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_6400_10238400_1_10000_1000.sp 1 1 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_6400_10238400_1_10000_1000.sp 1 1 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_6400_10238400_1_10000_1000.sp 1 1 2 >> ./results/myfwg.txt
+
+./bin/sprand 6400 10238400 1  -ll1000000 -lm1 > ./inputs/sprand_6400_10238400_1_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_6400_10238400_1_1000000_1.sp 1 1 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_6400_10238400_1_1000000_1.sp 1 1 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_6400_10238400_1_1000000_1.sp 1 1 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_6400_10238400_1_1000000_1.sp 1 1 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_6400_10238400_1_1000000_1.sp 1 1 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_6400_10238400_1_1000000_1.sp 1 1 3 >> ./results/myfwg.txt
+
+./bin/sprand 6400 10238400 10  -ll1000 -lm1 > ./inputs/sprand_6400_10238400_10_1000_1.sp
+./bin/dikh_run ./inputs/sprand_6400_10238400_10_1000_1.sp 1 10 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_6400_10238400_10_1000_1.sp 1 10 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_6400_10238400_10_1000_1.sp 1 10 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_6400_10238400_10_1000_1.sp 1 10 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_6400_10238400_10_1000_1.sp 1 10 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_6400_10238400_10_1000_1.sp 1 10 1 >> ./results/myfwg.txt
+
+./bin/sprand 6400 10238400 10  -ll10000 -lm1000 > ./inputs/sprand_6400_10238400_10_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_6400_10238400_10_10000_1000.sp 1 10 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_6400_10238400_10_10000_1000.sp 1 10 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_6400_10238400_10_10000_1000.sp 1 10 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_6400_10238400_10_10000_1000.sp 1 10 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_6400_10238400_10_10000_1000.sp 1 10 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_6400_10238400_10_10000_1000.sp 1 10 2 >> ./results/myfwg.txt
+
+./bin/sprand 6400 10238400 10  -ll1000000 -lm1 > ./inputs/sprand_6400_10238400_10_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_6400_10238400_10_1000000_1.sp 1 10 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_6400_10238400_10_1000000_1.sp 1 10 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_6400_10238400_10_1000000_1.sp 1 10 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_6400_10238400_10_1000000_1.sp 1 10 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_6400_10238400_10_1000000_1.sp 1 10 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_6400_10238400_10_1000000_1.sp 1 10 3 >> ./results/myfwg.txt
+
+./bin/sprand 6400 10238400 100  -ll1000 -lm1 > ./inputs/sprand_6400_10238400_100_1000_1.sp
+./bin/dikh_run ./inputs/sprand_6400_10238400_100_1000_1.sp 1 100 1 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_6400_10238400_100_1000_1.sp 1 100 1 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_6400_10238400_100_1000_1.sp 1 100 1 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_6400_10238400_100_1000_1.sp 1 100 1 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_6400_10238400_100_1000_1.sp 1 100 1 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_6400_10238400_100_1000_1.sp 1 100 1 >> ./results/myfwg.txt
+
+./bin/sprand 6400 10238400 100  -ll10000 -lm1000 > ./inputs/sprand_6400_10238400_100_10000_1000.sp
+./bin/dikh_run ./inputs/sprand_6400_10238400_100_10000_1000.sp 1 100 2 >>./results/mydikh.txt
+./bin/dikds_run ./inputs/sprand_6400_10238400_100_10000_1000.sp 1 100 2 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_6400_10238400_100_10000_1000.sp 1 100 2 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_6400_10238400_100_10000_1000.sp 1 100 2 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_6400_10238400_100_10000_1000.sp 1 100 2 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_6400_10238400_100_10000_1000.sp 1 100 2 >> ./results/myfwg.txt
+
+./bin/sprand 6400 10238400 100  -ll1000000 -lm1 > ./inputs/sprand_6400_10238400_100_1000000_1.sp
+./bin/dikh_run ./inputs/sprand_6400_10238400_100_1000000_1.sp 1 100 3 >>./results/mydikh.txt
+./bin/dikdl_run ./inputs/sprand_6400_10238400_100_1000000_1.sp 1 100 3 >> ./results/mydikd.txt
+./bin/bf_run ./inputs/sprand_6400_10238400_100_1000000_1.sp 1 100 3 >> ./results/mybf.txt
+./bin/pape_run ./inputs/sprand_6400_10238400_100_1000000_1.sp 1 100 3 >> ./results/mypape.txt
+./bin/fwa_run ./inputs/sprand_6400_10238400_100_1000000_1.sp 1 100 3 >> ./results/myfwa.txt
+./bin/fwg_run ./inputs/sprand_6400_10238400_100_1000000_1.sp 1 100 3 >> ./results/myfwg.txt
+
